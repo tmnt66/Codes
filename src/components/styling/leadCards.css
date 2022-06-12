@@ -1,0 +1,28 @@
+.lead_data{
+    display: grid;
+    margin: auto;
+    width: 81.5%;
+    align-items: center;
+    background-color: #80808038;
+grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    background-color: #E8E8E8;
+}
+.Leadcards{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    align-items: center;
+    height: 139px;
+    /* border: 1px solid black; */
+    justify-content: center;
+}
+
+
+.Leadcards h2{
+    margin: 27px 2px;
+}
+.Leadcards p{
+    margin: 2px 17px;
+
+}

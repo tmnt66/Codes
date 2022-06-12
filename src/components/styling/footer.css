@@ -1,0 +1,53 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: center/cover no-repeat url('http://www.turgotusa.com/wp-content/themes/TurgotTheme/img/footer.jpg');
+
+}
+footer .logo2{
+    margin: 23px 0px;
+}
+footer ul {
+    display: flex;
+    list-style: none;
+}
+footer ul li {
+    margin: 0px 15px;
+}
+
+footer ul {
+    text-decoration: none;
+    color: black;
+    margin: 10px 25px;
+    font-weight: bold;
+}
+footer .foot-buttons .btn2{
+    width: 307px;
+    height: 39px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid orange;
+    color: orange;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 28px 53px;
+}
+footer ul  li {
+    list-style: none;
+}
+footer .social  img{
+    margin: 31px 12px;
+
+}
+footer .credits{
+    border-top: 1px solid black;
+    display: flex;
+}
+footer .credits p{
+    margin: 19px 185px;
+}
+footer .foot-buttons .btn2{
+    cursor: pointer;
+}

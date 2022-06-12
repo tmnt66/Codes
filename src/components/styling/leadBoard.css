@@ -1,0 +1,21 @@
+.lead_about{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    align-items: center;
+    background-color: #80808014;
+    padding: 33px 10px;
+}
+.sign{
+    display: flex;
+    margin: 10px 41px;
+}
+.sign img{
+    width: 30px;
+    height: 30px;
+}
+
+.lead_content{
+    margin: 0px 37px;
+}
+

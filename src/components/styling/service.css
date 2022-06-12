@@ -1,0 +1,31 @@
+.Servicecards{
+    position: relative;
+}
+.Servicecards p{
+    position: absolute;
+    left: 36px;
+    font-weight: 400;
+}
+
+.Servicecards img{
+    border-radius: 16px;
+}
+.services_container{
+
+}
+.services_container h1{
+    margin: 10px 0px;
+}
+.bar{
+    background-color: orange;
+    height: 3px;
+    width: 20%;
+    margin: 10px auto;
+}
+.services_cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 87%;
+    margin: 30px auto;
+}
+

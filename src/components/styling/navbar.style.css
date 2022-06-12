@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    align-items: center;
+}
+.navbar{
+
+    display: flex;
+    align-items: center;
+    height: 66px;
+
+
+    position: fixed;
+    width: 100%;
+
+    z-index: 100;
+    background-color: rgba(256, 256, 256, 0.8);
+}
+.link{
+    text-decoration: none;
+    margin: 10px 10px;
+    color: black;
+}
+.menu-list{
+    list-style: none;
+    display: flex;
+}
+.menu-list li{
+  margin: 10px 10px;
+}
+
+/* MEDIA QUERIES********************************************** */
+
+@media only screen and (max-width:1335px){
+    .menu{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+}
+
+
+.nav-scroll{
+    background-color: rgba(red, green, blue, 0.8);
+}

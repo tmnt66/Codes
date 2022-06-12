@@ -1,0 +1,27 @@
+.cards{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    align-items: center;
+    margin: 10px 20px;
+    width: 178px;
+    padding: 5px;
+    height: 285px;
+    box-shadow: 3px 3px 48px #0000001a;
+}
+/* .cards :hover{
+    transform: translateY(-4px);
+    transition: 0.2s;
+} */
+
+.ChooseCardImg{
+
+}
+.cards h3{
+        margin: 10px 2px;
+
+}
+.cards p{
+    margin: 2px 17px;
+
+}
