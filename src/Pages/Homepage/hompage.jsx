@@ -33,7 +33,7 @@ const Homepage = () => {
         <div>
 
             <div className="homepage">
-                <img className="Home_main_image" src="http://www.turgotusa.com/wp-content/themes/TurgotTheme/img/hero.jpg" />
+                <img className="Home_main_image" src="http://www.turgotusa.com/wp-content/themes/TurgotTheme/img/hero.jpg" alt="img" />
                 <div className="home_container">
                     <h1>Coast to Coast. Think Logistics. <br /> Think Turgot USA.</h1>
                     <p>Specializing in dry van, reefer, flat bed and power only services.</p>
