@@ -4,7 +4,7 @@ const Footer = ()=>{
     return(
         <footer>
         <div className="logo2">
-            <img src="http://www.turgotusa.com/wp-content/themes/TurgotTheme/img/footer logo.svg" alt=""/>
+            <img src="http://www.turgotusa.com/wp-content/themes/TurgotTheme/img/footer logo.svg" alt="img"/>
         </div>
         <ul className="foot-links">
             <li className="foot-items">SHIPPERS</li>
@@ -18,9 +18,9 @@ const Footer = ()=>{
             <button className="btn2">420-420-4200</button>
         </div>
         <div className="social">
-          <img src="http://www.turgotusa.com/wp-content/themes/TurgotTheme/img/footer facebook.svg" alt=""/>
-          <img src="http://www.turgotusa.com/wp-content/themes/TurgotTheme/img/footer insta.svg" alt=""/>
-           <img src="http://www.turgotusa.com/wp-content/themes/TurgotTheme/img/footer twitter.svg" alt=""/>
+          <img src="http://www.turgotusa.com/wp-content/themes/TurgotTheme/img/footer facebook.svg" alt="img"/>
+          <img src="http://www.turgotusa.com/wp-content/themes/TurgotTheme/img/footer insta.svg" alt="img"/>
+           <img src="http://www.turgotusa.com/wp-content/themes/TurgotTheme/img/footer twitter.svg" alt="img"/>
         </div>
         <div className="credits">
             <hr/>

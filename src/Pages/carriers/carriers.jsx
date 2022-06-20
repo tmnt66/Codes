@@ -13,7 +13,7 @@ const Carrier = ()=>{
     return (
         <div className="Carrier">
           <div className="carrierTile">
-                <img src="http://www.turgotusa.com/wp-content/uploads/2022/01/header-1.jpg" alt="" />
+                <img src="http://www.turgotusa.com/wp-content/uploads/2022/01/header-1.jpg" alt="img" />
                 <h1>Shippers</h1>
             </div>
             <div className="CardTile">

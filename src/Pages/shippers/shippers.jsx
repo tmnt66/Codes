@@ -15,7 +15,7 @@ const Shippers = () => {
     return (
         <div className="shippers">
             <div className="shippersTile">
-                <img src="http://www.turgotusa.com/wp-content/uploads/2022/01/header.jpg" alt="" />
+                <img src="http://www.turgotusa.com/wp-content/uploads/2022/01/header.jpg" alt="img" />
                 <h1>Shippers</h1>
             </div>
             <div className="infoTile">

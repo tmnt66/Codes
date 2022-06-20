@@ -38,9 +38,6 @@ const OurServices = ()=>{
 }
 </div>
 </div>
-
-
-
 </>
     )
 }

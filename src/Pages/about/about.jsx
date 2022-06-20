@@ -15,7 +15,7 @@ const data = {
     return (
         <div className="about">
           <div className="AboutTile">
-            <img src="http://www.turgotusa.com/wp-content/uploads/2022/01/about-header-1.jpg" alt="" />
+            <img src="http://www.turgotusa.com/wp-content/uploads/2022/01/about-header-1.jpg" alt="img" />
             <h1>About Us</h1>
           </div>
          <div className="infoTile">
