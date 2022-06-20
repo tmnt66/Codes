@@ -34,6 +34,9 @@
 .menu-list li{
   margin: 10px 10px;
 }
+.menu-list li:hover{
+  color: orange;
+}
 
 /* MEDIA QUERIES********************************************** */
 

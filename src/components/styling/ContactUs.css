@@ -1,0 +1,45 @@
+
+
+.contact{
+    text-align: left;
+    text-align: left;
+    margin: 10px 92px;
+}
+
+.contact_title{
+    margin: 33px 10px;
+    color: darkslategrey;
+}
+.contact_title h1{
+    font-size: 41px;
+}
+.contact_title p{
+    font-size: 19px;
+}
+
+
+
+.contactCard{
+    display: flex;
+    margin: 38px 10px;
+    align-items: center;
+}
+
+
+
+.contactCard img{
+    width: 59px;
+    padding: 0px 30px;
+    height: 59px;
+}
+
+.contactdetails{
+    font-size: 17px;
+    color: darkslategrey;
+}
+.contactdetails h4{
+
+}
+.contactdetails p{
+
+}

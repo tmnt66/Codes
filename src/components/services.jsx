@@ -1,7 +1,7 @@
 import ServiceCard from './card/services-card'
 import './styling/service.css'
 
-const Services = ()=>{
+const OurServices = ()=>{
 
     const services_data=[
         {
@@ -45,4 +45,4 @@ const Services = ()=>{
     )
 }
 
-export default Services
+export default OurServices

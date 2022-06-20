@@ -1,0 +1,30 @@
+.track{
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    margin: 61px 10px;
+}
+.formInput{
+    margin: 10px 6px;
+    height: 35px;
+    width: 285px;
+    border: 1px solid orange;
+    padding: 4px 20px;
+    font-size: 19px;
+
+}
+
+.trackform .formbtn{
+    border-radius: 4px;
+    width: 152px;
+    height: 35px;
+    cursor: pointer;
+}
+.trackform{
+    padding: 9px 10px;
+}
+

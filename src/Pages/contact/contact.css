@@ -1,0 +1,23 @@
+.contact_cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 33px 10px;
+}
+.contact_reason{
+    height: 21.21rem;
+    position: relative;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+}
+.contact_reason h1{
+    font-size: 37px;
+    /* margin: 24px; */
+    padding: 95px 10px 10px 10px;
+
+}
+.contact_cards .card .contact_card{
+    height: 131px;
+    margin: 0px auto;
+}

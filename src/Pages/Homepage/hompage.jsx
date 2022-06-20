@@ -1,7 +1,7 @@
 import Button1 from "../../components/button"
 import ChooseCard from "../../components/card/card"
 import Lead from "../../components/leadBoard"
-import Services from "../../components/services"
+import OurServices from "../../components/services"
 import './homepage.css'
 
 const Homepage = () => {
@@ -57,7 +57,7 @@ const Homepage = () => {
                 <Lead/>
              </div>
              <div className="services">
-                <Services/>
+                <OurServices/>
              </div>
 
 

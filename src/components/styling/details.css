@@ -1,0 +1,23 @@
+.tile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 33px 33px;
+}
+.tile img{
+    border-radius: 14px;
+}
+
+.content{
+    margin: 10px 103px;
+    margin-top: 0px;
+    text-align: left;
+}
+.content h2{
+    margin: 37px 0px;
+    font-size: 33px;
+    margin-top: 0px;
+}
+.content p{
+
+}

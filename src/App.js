@@ -9,7 +9,8 @@ import Track from './Pages/track/track';
 import Blog from  './Pages/blog/blog'
 import Carrier from './Pages/carriers/carriers';
 import Shippers from './Pages/shippers/shippers';
-import Services from './components/services';
+import Services from './Pages/services/services_page';
+import Contacts from './Pages/contact/contact';
 function App() {
   return (
     <div className="App">
@@ -20,11 +21,12 @@ function App() {
         {/* <Route path='/shippers' element={}/> */}
         <Route path='/' element={<Homepage/>}/>
         <Route path='/about' element={<About/>}/>
-        <Route path='/carrier' element={<Carrier/>}/>
+        <Route path='/carriers' element={<Carrier/>}/>
         <Route path='/shippers' element={<Shippers/>}/>
         <Route path='/services' element={<Services/>}/>
         <Route path='/track' element={<Track/>}/>
         <Route path='/blog' element={<Blog/>}/>
+        <Route path='/contacts' element={<Contacts/>}/>
       </Routes>
      <Footer/>
       {/* </Router> */}

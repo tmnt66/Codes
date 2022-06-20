@@ -1,0 +1,34 @@
+.form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contactInfo{
+    
+}
+.shippersTile{
+    height: 21.21rem;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shippersTile img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -9;
+    width: 100%;
+    height: 21.21rem;
+}
+.shippersTile h1{
+    font-size: 56px;
+}
+
+.clientData{
+    
+}
+
+
+
+

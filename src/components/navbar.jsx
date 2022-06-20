@@ -4,8 +4,10 @@ import HamMenu from "./hamMenu"
 import Logo from "./logo"
 import { Link } from "react-router-dom"
 import './styling/navbar.style.css'
+import HoverService from "./hover"
 
 const Navbar = () => {
+ 
     return (
         <div className="navbar nav-scroll">
             <Link to = '/'><Logo /></Link>
@@ -14,14 +16,16 @@ const Navbar = () => {
                 <div className="menu-items">
                     <ul className="menu-list">
 
-                       <Link className="link" to='/shippers'>
+                       <Link className="link " to='/shippers'>
                          <li>Shippers</li>
                         </Link>
                        <Link className="link" to='/carriers'>
                         <li>Carriers</li>
                         </Link>
-                       <Link className="link" to='/services'>
+                       <Link  className="link hover1" to='/services'>
                         <li>Services</li>
+                       
+                        <HoverService/>
                         </Link>
                        <Link className="link" to='/track'>
                         <li>Track</li>
@@ -32,7 +36,7 @@ const Navbar = () => {
                        <Link className="link" to='/blog'>
                         <li>Blog</li>
                         </Link>
-                       <Link className="link" to='/contact'>
+                       <Link className="link" to='/contacts'>
                         <li>Contact</li>
                         </Link>
                   

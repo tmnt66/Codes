@@ -1,0 +1,22 @@
+
+
+.AboutTile{
+    height: 21.21rem;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AboutTile h1{
+    font-size: 56px;
+}
+.AboutTile img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -9;
+    width: 100%;
+    height: 21.21rem;
+}
+

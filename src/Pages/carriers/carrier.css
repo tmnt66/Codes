@@ -1,0 +1,35 @@
+.carrierTile{
+    height: 21.21rem;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrierTile img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -9;
+    width: 100%;
+    height: 21.21rem;
+}
+.carrierTile h1{
+    font-size: 56px;
+}
+
+.CardTile{
+
+}
+
+.CardTile .carrierBtn{
+    position: absolute;
+    top: 635px;
+    width: 225px;
+    height: 43px;
+    left: 626px;
+    font-size: 18px;
+    background-image: linear-gradient(to right, orange, #fbff00);
+    cursor: pointer;
+}
